@@ -6,7 +6,6 @@ export default function Japan() {
   return (
     <div className={styles.container}>
       <ul className={styles.japan__list}>
-        
         <li className={styles.japan__item}>
           <img className={styles.japan__img} src="/japan-img/1.jpg" alt="Fushimi-inari Temple" />
           <p className={styles.japan__description}>Fushimi-inari Temple (Kyoto)</p>

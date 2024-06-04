@@ -1,9 +1,11 @@
 import React from 'react';
+import styles from '../styles/page.module.css';
+// import Japan from '../japan/page';
 
 interface Card {
   src: string;
   alt: string;
-  text: string;
+  description: string;
 }
 
 interface CardPageProps {
@@ -13,11 +15,11 @@ interface CardPageProps {
 const CardPage: React.FC<CardPageProps> = ({ cards }) => {
   return (
     <div>
-      {cards.map((cards, index) => (
-        <div key={index}>
-          <img src={cards.src} alt={cards.alt} />
-          <p>{cards.text}</p>
-        </div>
+      {cards.map((card, index) => (
+        <li className={styles.item} key={index}>
+          <img className={styles.img} src={card.src} alt={card.alt} />
+          <p className={styles.description}>{card.description}</p>
+        </li>
       ))}
     </div>
   );
