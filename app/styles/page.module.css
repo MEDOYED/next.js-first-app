@@ -7,7 +7,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
 
+.list div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item {

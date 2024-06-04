@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../styles/page.module.css';
-// import Japan from '../japan/page';
 
 interface Card {
   src: string;
