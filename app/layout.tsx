@@ -27,16 +27,16 @@ export default function RootLayout({
               </a>
               <ul className="header__list">
                 <li className="header__item">
-                  <a href="/japan">Japan</a>
+                  <a href="/pages/japan">Japan</a>
                 </li>
                 <li className="header__item">
-                  <a href="/brazil">Brazil</a>
+                  <a href="/pages/brazil">Brazil</a>
                 </li>
                 <li className="header__item">
-                  <a href="/canada">Canada</a>
+                  <a href="/pages/canada">Canada</a>
                 </li>
                 <li className="header__item">
-                  <a href="/australia">Australia</a>
+                  <a href="/pages/australia">Australia</a>
                 </li>
               </ul>
             </div>

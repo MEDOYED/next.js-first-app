@@ -1,5 +1,5 @@
-import CardPage from "../components/CardSights";
-import styles from "../styles/page.module.css";
+import CardSights from "../../components/CardSights";
+import styles from "../../styles/page.module.css";
 
 const cardsJapan = [
   { src: '/japan-img/1.jpg', alt: 'Fushimi-inari Temple', description: 'Fushimi-inari Temple (Kyoto)' },
@@ -14,7 +14,7 @@ export default function Japan() {
   return (
     <div className={styles.container}>
       <ul className={styles.list}>
-        <CardPage cards={cardsJapan} />
+        <CardSights cards={cardsJapan} />
       </ul>
     </div>
   );
