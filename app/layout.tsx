@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,7 @@ export default function RootLayout({
           <div className="container">
             <div className="header__nav">
               <Link className="header__logo" href="/">
-                <img  src="/header/logo.png" alt="logo"/>
+                <Image  src="/header/logo.png" alt="logo"/>
               </Link>
               <ul className="header__list">
                 <li className="header__item">
