@@ -11,7 +11,7 @@ interface CardPageProps {
   cards: Card[];
 }
 
-const CardPage: React.FC<CardPageProps> = ({ cards }) => {
+const CardSights: React.FC<CardPageProps> = ({ cards }) => {
   return (
     <div>
       {cards.map((card, index) => (
@@ -24,4 +24,4 @@ const CardPage: React.FC<CardPageProps> = ({ cards }) => {
   );
 };
 
-export default CardPage;
+export default CardSights;
