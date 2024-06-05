@@ -23,7 +23,7 @@ export default function RootLayout({
           <div className="container">
             <div className="header__nav">
               <Link className="header__logo" href="/">
-                <Image  src="/header/logo.png" alt="logo"/>
+                <Image src="/header/logo.png" width={200} height={100} alt="logo"/>
               </Link>
               <ul className="header__list">
                 <li className="header__item">
